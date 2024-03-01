@@ -1,0 +1,40 @@
+body {
+    background: rgb(206, 204, 204);
+    margin: 0;
+}
+div {
+    box-sizing: border-box;
+}
+header {
+    background: white;
+    padding: 10px;
+}
+header h1 {
+    margin: 0;
+}
+.photo {
+    background-color: white;
+    margin-top: 10px;
+}
+.photo img {
+    width: 100%;
+}
+.photo .upper div:first-child {
+    display: inline-block;
+    width: 80%;
+    }
+.photo .upper div:last-child {
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+    color: gray;
+    }
+.photo h2, .photo p {
+    padding: 20px;
+    margin: 0;
+}
+.section {
+    width: 600px;
+    margin: auto;
+}
